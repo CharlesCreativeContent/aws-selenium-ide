@@ -1,10 +1,7 @@
 # Selenium IDE and AWS Cloud Development: <a target="_blank" href="https://www.canva.com/design/DAGEl541AD8/y7s5u40Upi8Wbxr8lijHBA/view?utm_content=DAGEl541AD8&utm_campaign=designshare&utm_medium=link&utm_source=editor">Slides Here</a>
 Scripts to automate the deployment of cloud infrastructure using the browser automation tool selenium-ide
 
-<img src="https://github.com/CharlesCreativeContent/myImages/blob/main/images/Order.jpg?raw=true" width="100%" alt="Slideshow Picture"/>
-
-
-I used BentoML demos, including [BentoVLLM](https://github.com/bentoml/BentoVLLM), [BentoXTTS](https://github.com/bentoml/BentoXTTS), and [BentoSDXLTurbo](https://github.com/bentoml/BentoSDXLTurbo), and used MoviePy to edit them into a video.
+<img src="https://github.com/CharlesCreativeContent/myImages/blob/main/images/Browser%20Automation%20&%20AWS%20Cloud%20Development.jpg?raw=true" width="100%" alt="Slideshow Picture"/>
 
 ## Prerequisites
 
