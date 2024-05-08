@@ -1,9 +1,5 @@
-# Selenium IDE and AWS Cloud Development
+# Selenium IDE and AWS Cloud Development: <a target="_blank" href="https://www.canva.com/design/DAGEl541AD8/y7s5u40Upi8Wbxr8lijHBA/view?utm_content=DAGEl541AD8&utm_campaign=designshare&utm_medium=link&utm_source=editor">Slides Here</a>
 Scripts to automate the deployment of cloud infrastructure using the browser automation tool selenium-ide
-
-
-## Selenium IDE: <a target="_blank" href="https://www.canva.com/design/DAF_O6pGDy8/9sxeLm9LmnVvzbPtdgCspg/view?utm_content=DAF_O6pGDy8&utm_campaign=designshare&utm_medium=link&utm_source=editor#14">Slides Here</a>
-This project demonstrates how to build a text-to-video application using  [BentoML](https://github.com/bentoml/BentoML), powered by [XTTS](https://huggingface.co/coqui/XTTS-v2), [VLLM](https://github.com/bentoml/BentoML), [SDXL-TURBO](https://huggingface.co/coqui/XTTS-v2).
 
 <img src="https://github.com/CharlesCreativeContent/myImages/blob/main/images/Order.jpg?raw=true" width="100%" alt="Slideshow Picture"/>
 
