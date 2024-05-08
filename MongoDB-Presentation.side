@@ -33,7 +33,7 @@
       "value": ""
     }, {
       "id": "334aefbc-1471-490f-81be-1dc72086fbef",
-      "comment": "",
+      "comment": "Open Creation Form",
       "command": "click",
       "target": "css=.custom-home__create-action > .awsui_content_vjswe_2od9j_103",
       "targets": [
@@ -45,7 +45,7 @@
       "value": ""
     }, {
       "id": "07eed978-9a1c-4fdf-bbbe-6fbf0461405b",
-      "comment": "",
+      "comment": "Focus on Bucket Name Input",
       "command": "click",
       "target": "css=[placeholder=\"myawsbucket\"]",
       "targets": [
@@ -58,7 +58,7 @@
       "value": ""
     }, {
       "id": "4018c76c-291e-4b11-910b-7f90da87fccb",
-      "comment": "",
+      "comment": "Type in Bucket Name - [Needs User Input Value]",
       "command": "type",
       "target": "css=[placeholder=\"myawsbucket\"]",
       "targets": [
@@ -71,7 +71,7 @@
       "value": "mongo-example"
     }, {
       "id": "355a3d69-b400-495b-a78f-cca3662ab866",
-      "comment": "",
+      "comment": "Click on CREATE BUCKET",
       "command": "click",
       "target": "css=.awsui_p-top-m_18wu0_10zld_666 .awsui_variant-primary_vjswe_2od9j_251",
       "targets": [
@@ -95,7 +95,7 @@
       "value": ""
     }, {
       "id": "86a8b1db-0d88-4a13-afde-5278bbbd2ac6",
-      "comment": "",
+      "comment": "Open DynamoDB",
       "command": "click",
       "target": "css=.awsui_variant-primary_vjswe_2od9j_251",
       "targets": [
@@ -108,7 +108,7 @@
       "value": ""
     }, {
       "id": "e5ed1d34-b621-4eb9-bd09-0487594e3c47",
-      "comment": "",
+      "comment": "Focus on Username Input",
       "command": "click",
       "target": "id=username",
       "targets": [
@@ -121,7 +121,7 @@
       "value": ""
     }, {
       "id": "043a99df-eec8-4184-831e-83bd689717d7",
-      "comment": "",
+      "comment": "Type Username - [Needs User Input]",
       "command": "type",
       "target": "id=username",
       "targets": [
@@ -134,7 +134,7 @@
       "value": "username99"
     }, {
       "id": "50c4e092-9590-4f90-a775-6e3925bfab3e",
-      "comment": "",
+      "comment": "Focus on Password Input",
       "command": "click",
       "target": "id=passwordKey",
       "targets": [
@@ -147,7 +147,7 @@
       "value": ""
     }, {
       "id": "500256c0-76a6-48e3-b8f2-520b141a9153",
-      "comment": "",
+      "comment": "Type Password - [Needs User Input]",
       "command": "type",
       "target": "id=passwordKey",
       "targets": [
@@ -160,7 +160,7 @@
       "value": "password99"
     }, {
       "id": "745c17df-4e23-4e0f-8a51-b0d24ede8c19",
-      "comment": "",
+      "comment": "Focus on Password Verification Input",
       "command": "click",
       "target": "id=passwordValue",
       "targets": [
@@ -173,7 +173,7 @@
       "value": ""
     }, {
       "id": "503feaa1-2767-42c5-8a61-2cf3db0e0967",
-      "comment": "",
+      "comment": "Type Password Again - [Needs User Input]",
       "command": "type",
       "target": "id=passwordValue",
       "targets": [
@@ -186,7 +186,7 @@
       "value": "password99"
     }, {
       "id": "78b902fa-6456-4a3a-9abd-a4e1209ab482",
-      "comment": "",
+      "comment": "Click on CREATE CLUSTER",
       "command": "click",
       "target": "css=.awsui_variant-primary_vjswe_2od9j_251 > .awsui_content_vjswe_2od9j_103",
       "targets": [
