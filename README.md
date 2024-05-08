@@ -15,7 +15,7 @@ Scripts to automate the deployment of cloud infrastructure using the browser aut
 - Other Script Examples - [Link here](https://shawnimages.netlify.app/Scripts/OtherScripts.side)
 
   
-## About Selenium
+## About Selenium IDE
 - Open Source
 - Frontend Testing Framework
 - Browser Extension
@@ -30,8 +30,8 @@ Scripts to automate the deployment of cloud infrastructure using the browser aut
 
 ## Cons
 - Dynamic apps - Tests can be broken often if application is consistently updated or elements are dynamically rendered
-- Not in Backend - 
-- Manual Save
+- Not in Backend - Doesn't have access to backend API's when not integrated into your environment
+- Manual Save - Progress can be lost if the browser is closed without saving
 
 ## Command Line Interface
 
