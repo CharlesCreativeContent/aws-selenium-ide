@@ -25,11 +25,16 @@ Scripts to automate the deployment of cloud infrastructure using the browser aut
 ## Pros and Cons
 
 Pro - Easy to Start
+
 Pro - Exportable
+
 Pro - Visual Testing
 
+
 Con - Easy to Start
+
 Con - Exportable
+
 Con - Visual Testing
 
 
