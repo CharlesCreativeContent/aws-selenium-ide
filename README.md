@@ -10,5 +10,6 @@ Scripts to automate the deployment of cloud infrastructure using the browser aut
 
   
 ## Resources
-- AWS Cloud Scripts - [Link here](https://github.com/CharlesCreativeContent/aws-selenium-ide/blob/main/MongoDB-Presentation.side?raw=true)
-- Other Script Examples - [Link here](https://github.com/CharlesCreativeContent/aws-selenium-ide/blob/main/OtherScripts.side?raw=true)
+- Learn More about Selenium IDE - [Blog Post](https://medium.com/@ShawnBasquiat/browser-automation-101-selenium-ide-35b8f3c04450?source=friends_link&sk=20d27fd01235146c5d0f9f3291a9a099)
+- AWS Cloud Scripts - [Link here](https://shawnimages.netlify.app/Scripts/MongoDB-Presentation.side)
+- Other Script Examples - [Link here](https://shawnimages.netlify.app/Scripts/OtherScripts.side)
