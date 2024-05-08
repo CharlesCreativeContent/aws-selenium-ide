@@ -7,3 +7,9 @@ Scripts to automate the deployment of cloud infrastructure using the browser aut
 
 - Create a Free AWS account - [Link Here](https://portal.aws.amazon.com/billing/signup?refid=em_127222&p=free&c=hp&z=1&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start/email)
 - Download Selenium IDE Chrome Extension - [Link Here](https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd/related?hl=en)
+
+  
+## Resources
+
+- AWS Cloud Scripts - Link here
+- Other Script Examples - Link here
