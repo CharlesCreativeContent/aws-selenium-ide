@@ -2,7 +2,7 @@
   "id": "5dc935a1-cb61-4331-a86f-bc9bc99b1144",
   "version": "2.0",
   "name": "MongoDB-Presentation",
-  "url": "",
+  "url": "https://google.com",
   "tests": [{
     "id": "db170c56-6211-4521-a3a5-cd15f276e8ef",
     "name": "Grab DynamoDB Table",
@@ -32,13 +32,13 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "c065efaf-c9a9-43a6-b2bf-b1d9beda4b48",
+      "id": "334aefbc-1471-490f-81be-1dc72086fbef",
       "comment": "",
       "command": "click",
       "target": "css=.custom-home__create-action > .awsui_content_vjswe_2od9j_103",
       "targets": [
         ["css=.custom-home__create-action > .awsui_content_vjswe_2od9j_103", "css:finder"],
-        ["xpath=//div[@id='5-1715159194117-9448']/div/div/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//div[@id='5-1715161748766-5691']/div/div/div[3]/button/span", "xpath:idRelative"],
         ["xpath=//div[2]/div/div/div/div/div/div/div[3]/button/span", "xpath:position"],
         ["xpath=//span[contains(.,'Create bucket')]", "xpath:innerText"]
       ],
@@ -47,7 +47,7 @@
       "id": "07eed978-9a1c-4fdf-bbbe-6fbf0461405b",
       "comment": "",
       "command": "click",
-      "target": "id=formField158-1715159226158-1000",
+      "target": "css=[placeholder=\"myawsbucket\"]",
       "targets": [
         ["id=formField158-1715159226158-1000", "id"],
         ["css=#formField158-1715159226158-1000", "css:finder"],
@@ -60,12 +60,12 @@
       "id": "4018c76c-291e-4b11-910b-7f90da87fccb",
       "comment": "",
       "command": "type",
-      "target": "id=formField158-1715159226158-1000",
+      "target": "css=[placeholder=\"myawsbucket\"]",
       "targets": [
-        ["id=formField158-1715159226158-1000", "id"],
-        ["css=#formField158-1715159226158-1000", "css:finder"],
-        ["xpath=//input[@id='formField158-1715159226158-1000']", "xpath:attributes"],
-        ["xpath=//div[@id='148-1715159226155-8358']/div[2]/div/div[3]/div/div[2]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["id=formField158-1715161577683-3618", "id"],
+        ["css=#formField158-1715161577683-3618", "css:finder"],
+        ["xpath=//input[@id='formField158-1715161577683-3618']", "xpath:attributes"],
+        ["xpath=//div[@id='148-1715161577679-7852']/div[2]/div/div[3]/div/div[2]/div/div/div/div/div/input", "xpath:idRelative"],
         ["xpath=//div[2]/div/div/div/div/div/input", "xpath:position"]
       ],
       "value": "mongo-example"
@@ -195,12 +195,85 @@
         ["xpath=//div[2]/div[2]/button/span", "xpath:position"]
       ],
       "value": ""
-    }, {
-      "id": "3d0dde6b-50b3-493b-9c07-f3aa3d69e724",
-      "comment": "",
-      "command": "executeScript",
-      "target": "",
+    }]
+  }, {
+    "id": "b77f4b7c-d832-4385-bb03-fc4c67ea0cea",
+    "name": "Create DynamoDB Table",
+    "commands": [{
+      "id": "17e057e8-30b9-41d6-a79e-a8ae070829e4",
+      "comment": "Open Starting Link",
+      "command": "open",
+      "target": "https://us-east-1.console.aws.amazon.com/dynamodbv2/home?region=us-east-1#dashboard",
       "targets": [],
+      "value": ""
+    }, {
+      "id": "1c7209aa-96de-4fa8-8731-c126fdc5456f",
+      "comment": "Focus on Table Name Input",
+      "command": "click",
+      "target": "linkText=Create table",
+      "targets": [
+        ["linkText=Create table", "linkText"],
+        ["css=.awsui_variant-primary_vjswe_2od9j_251", "css:finder"],
+        ["xpath=//div[@id=':r1e:']/div[2]/div/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#create-table')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Create table')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f18315fd-5160-4726-a91b-181f0251c13a",
+      "comment": "Type Table Name - [Needs User Input]",
+      "command": "type",
+      "target": "css=[placeholder=\"Enter name for table\"]",
+      "targets": [
+        ["id=formField:r3l:", "id"],
+        ["css=#formField\\3Ar3l\\3A", "css:finder"],
+        ["xpath=//input[@id='formField:r3l:']", "xpath:attributes"],
+        ["xpath=//div[@id=':r3g:']/div[2]/div/div/div/div[3]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "MONGO-EXAMPLE"
+    }, {
+      "id": "75475884-bde4-43bb-a824-394c5ae3903e",
+      "comment": "Focus on Partition Key Input",
+      "command": "click",
+      "target": "id=partitionKey.AttributeName",
+      "targets": [
+        ["id=partitionKey.AttributeName", "id"],
+        ["name=partitionKey.AttributeName", "name"],
+        ["css=#partitionKey\\.AttributeName", "css:finder"],
+        ["xpath=//input[@id='partitionKey.AttributeName']", "xpath:attributes"],
+        ["xpath=//div[@id=':r3a:']/div[2]/div/div[3]/div/div/div/div/div[3]/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40fa3e4a-7d34-4c86-805f-c6bed1ce4811",
+      "comment": "Type Partition Key - [Needs User Input]",
+      "command": "type",
+      "target": "id=partitionKey.AttributeName",
+      "targets": [
+        ["id=partitionKey.AttributeName", "id"],
+        ["name=partitionKey.AttributeName", "name"],
+        ["css=#partitionKey\\.AttributeName", "css:finder"],
+        ["xpath=//input[@id='partitionKey.AttributeName']", "xpath:attributes"],
+        ["xpath=//div[@id=':r3a:']/div[2]/div/div[3]/div/div/div/div/div[3]/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "UUID"
+    }, {
+      "id": "77089442-d1cf-4070-8cfb-20140b512c00",
+      "comment": "Click on CREATE TABLE button",
+      "command": "click",
+      "target": "id=createTableBtn",
+      "targets": [
+        ["id=createTableBtn", "id"],
+        ["css=#createTableBtn", "css:finder"],
+        ["xpath=//button[@id='createTableBtn']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div[2]/main/div/div[2]/div/div/div/div[3]/form/div/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create table')]", "xpath:innerText"]
+      ],
       "value": ""
     }]
   }],
@@ -212,6 +285,6 @@
     "timeout": 300,
     "tests": ["db170c56-6211-4521-a3a5-cd15f276e8ef"]
   }],
-  "urls": [],
+  "urls": ["https://google.com/"],
   "plugins": []
 }
