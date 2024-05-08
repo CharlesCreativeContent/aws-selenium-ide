@@ -22,21 +22,16 @@ Scripts to automate the deployment of cloud infrastructure using the browser aut
 - Exportable to Selenium
 - Browser Recording
 
-## Pros and Cons
-
-Pro - Easy to Start
-
-Pro - Exportable
-
-Pro - Visual Testing
+## Pros
+- Easy to Start - The ability to record browser interactions, as opposed to writing each step manually, saves time
+- Exportable - You can quickly transition to selenium code that can run in your environment testing frameworks
+- Visual Testing - You can have test that actually verifies features from the client side
 
 
-Con - Easy to Start
-
-Con - Exportable
-
-Con - Visual Testing
-
+## Cons
+- Dynamic apps - Tests can be broken often if application is consistently updated or elements are dynamically rendered
+- Not in Backend - 
+- Manual Save
 
 ## Command Line Interface
 
